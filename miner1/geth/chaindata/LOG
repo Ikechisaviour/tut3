@@ -1,0 +1,33 @@
+=============== Oct 26, 2021 (KST) ===============
+14:26:46.752148 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:26:46.836371 db@open opening
+14:26:46.840645 version@stat F·[] S·0B[] Sc·[]
+14:26:46.860654 db@janitor F·2 G·0
+14:26:46.860956 db@open done T·24.474125ms
+14:26:46.869268 db@close closing
+14:26:46.869850 db@close done T·579.667µs
+=============== Oct 26, 2021 (KST) ===============
+14:27:39.677094 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:27:39.678469 version@stat F·[] S·0B[] Sc·[]
+14:27:39.678553 db@open opening
+14:27:39.678703 journal@recovery F·1
+14:27:39.680942 journal@recovery recovering @1
+14:27:39.702658 memdb@flush created L0@2 N·12 S·783B "H%\x13..\x83M),v5":"sec..f\xff\xe3,v1"
+14:27:39.705631 version@stat F·[1] S·783B[783B] Sc·[0.25]
+14:27:39.785009 db@janitor F·3 G·0
+14:27:39.785114 db@open done T·106.543792ms
+14:40:50.445369 db@close closing
+14:40:50.447690 db@close done T·2.319708ms
+=============== Oct 26, 2021 (KST) ===============
+14:41:55.118859 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:41:55.119839 version@stat F·[1] S·783B[783B] Sc·[0.25]
+14:41:55.119889 db@open opening
+14:41:55.120100 journal@recovery F·1
+14:41:55.122871 journal@recovery recovering @3
+14:41:55.167224 memdb@flush created L0@5 N·12524 S·651KiB "\f\x05\xca..\xc6*\xd4,v12532":"\x81,S..\x9bE\x06,v12531"
+14:41:55.169932 version@stat F·[2] S·652KiB[652KiB] Sc·[0.50]
+14:41:55.252811 db@janitor F·4 G·0
+14:41:55.252903 db@open done T·132.992792ms
+=============== Oct 27, 2021 (KST) ===============
+12:14:04.008357 db@close closing
+12:14:04.010424 db@close done T·2.062583ms

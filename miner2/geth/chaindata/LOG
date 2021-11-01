@@ -1,0 +1,33 @@
+=============== Oct 26, 2021 (KST) ===============
+14:32:37.455427 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:32:37.530751 db@open opening
+14:32:37.537992 version@stat F·[] S·0B[] Sc·[]
+14:32:37.558722 db@janitor F·2 G·0
+14:32:37.559209 db@open done T·28.30575ms
+14:32:37.570288 db@close closing
+14:32:37.571312 db@close done T·1.010417ms
+=============== Oct 26, 2021 (KST) ===============
+14:34:27.285214 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:34:27.287298 version@stat F·[] S·0B[] Sc·[]
+14:34:27.287497 db@open opening
+14:34:27.287931 journal@recovery F·1
+14:34:27.291223 journal@recovery recovering @1
+14:34:27.318806 memdb@flush created L0@2 N·12 S·783B "H%\x13..\x83M),v5":"sec..f\xff\xe3,v1"
+14:34:27.321228 version@stat F·[1] S·783B[783B] Sc·[0.25]
+14:34:27.400176 db@janitor F·3 G·0
+14:34:27.400242 db@open done T·112.709208ms
+14:40:14.861290 db@close closing
+14:40:14.862081 db@close done T·787.25µs
+=============== Oct 26, 2021 (KST) ===============
+14:41:22.526121 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:41:22.527445 version@stat F·[1] S·783B[783B] Sc·[0.25]
+14:41:22.527503 db@open opening
+14:41:22.527688 journal@recovery F·1
+14:41:22.531263 journal@recovery recovering @3
+14:41:22.554513 memdb@flush created L0@5 N·11 S·442B "Dat..ion,v14":"unc..own,v21"
+14:41:22.556999 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:41:22.636208 db@janitor F·4 G·0
+14:41:22.636314 db@open done T·108.78675ms
+=============== Oct 27, 2021 (KST) ===============
+12:14:00.024069 db@close closing
+12:14:00.025607 db@close done T·1.536084ms
